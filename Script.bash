@@ -178,7 +178,7 @@ read -n1 choice
                                  done
                                  
                                  check115=0
-                                 until [["$check115" = 1 ]] ; do
+                                 until [[ "$check115" = 1 ]] ; do
                                      clear
 
                                      echo -e ${yellow}"Path to User directory: for example, ${green}/home/ ${clear}"
